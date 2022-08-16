@@ -159,7 +159,6 @@ a {
     left: 31.438rem;
     display: grid;
     gap: .5rem;
-    align-items: center;
     grid-template-columns: min-content 1fr;
 }
 
@@ -232,7 +231,55 @@ a {
     box-shadow: -8px 0 #378FE9, -16px 0 #6DAE4F;
 }
 
+.atividades {
+    background-color: var(--fundo-card);
+    width: 48.75rem;
+    margin: 0 9.625rem .875rem;
+    border-radius: 16px;
+}
 
+.atv-head {
+    padding: 10px 0 0 24px;
+}
+
+.atv-img-p{
+    display: flex;
+    align-items: center;
+}
+
+.atv-img-p img{
+    margin-right: .5rem;
+}
+
+.atv-disc {
+    padding: 13px 24px 0 24px;
+}
+
+.head-p-atv {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--texto-secundario);
+    margin-bottom: .5rem;
+}
+
+.linha{
+    border-bottom: 1px solid #ffffff99;
+    margin-top: .5rem;
+}
+
+.linha-big{
+    border-bottom: 1px solid #ffffff99;
+    
+}
+
+#ex-atv{
+    text-align: center;
+}
+
+#ex-atv p{
+    padding: .5rem 0 .5rem 0;
+}
 
 @media(max-width: 1024px) {
     nav {
