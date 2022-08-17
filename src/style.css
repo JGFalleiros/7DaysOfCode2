@@ -242,12 +242,12 @@ a {
     padding: 10px 0 0 24px;
 }
 
-.atv-img-p{
+.atv-img-p {
     display: flex;
     align-items: center;
 }
 
-.atv-img-p img{
+.atv-img-p img {
     margin-right: .5rem;
 }
 
@@ -263,22 +263,168 @@ a {
     margin-bottom: .5rem;
 }
 
-.linha{
+.linha {
     border-bottom: 1px solid #ffffff99;
     margin-top: .5rem;
 }
 
-.linha-big{
+.linha-big {
     border-bottom: 1px solid #ffffff99;
-    
 }
 
-#ex-atv{
+#ex-atv {
     text-align: center;
 }
 
-#ex-atv p{
+#ex-atv p {
     padding: .5rem 0 .5rem 0;
+}
+
+.sobre {
+    background-color: var(--fundo-card);
+    width: 48.75rem;
+    margin: 0 9.625rem .875rem;
+    border-radius: 16px;
+    padding: 16px 24px;
+}
+
+.sobre h1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.sobre p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.experiencias {
+    background-color: var(--fundo-card);
+    width: 48.75rem;
+    margin: 0 9.625rem .875rem;
+    border-radius: 16px;
+    padding: 16px 24px;
+}
+
+.experiencias h1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.empresa-xp {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.empresa-xp img {
+    margin-right: 8px;
+}
+
+.cargos-ocupados {
+    display: flex;
+}
+
+.dot-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 26px 0 20px;
+}
+
+.dot-line-spc {
+    margin-bottom: 8px;
+}
+
+.localizacao {
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--texto-secundario);
+}
+
+.duracao {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--texto-secundario);
+}
+
+.tipo-emprego {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.form-acad {
+    background-color: var(--fundo-card);
+    width: 48.75rem;
+    margin: 0 9.625rem .875rem;
+    border-radius: 16px;
+    padding: 8px 24px 32px;
+}
+
+.form-acad h1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.instit-ens {
+    display: flex;
+}
+
+.instit-ens img {
+    margin-right: 8px;
+}
+
+.instituicao {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.nome-curso {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.idiomas {
+    background-color: var(--fundo-card);
+    width: 48.75rem;
+    margin: 0 9.625rem .875rem;
+    border-radius: 16px;
+    padding: 16px 24px 16px;
+}
+
+.idiomas h1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.lingua {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.lvl-idioma {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    color: var(--texto-secundario);
+}
+
+.linha-idioma{
+    border-bottom: 1px solid #ffffff99;
+    margin: .5rem 0 .75rem;
 }
 
 @media(max-width: 1024px) {
