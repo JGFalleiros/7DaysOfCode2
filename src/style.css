@@ -81,8 +81,6 @@ nav {
 .profile-resume {
     margin: 0 9.625rem .25rem;
     position: relative;
-    top: 0;
-    left: 0;
 }
 
 .profile-infos {
@@ -422,9 +420,76 @@ a {
     color: var(--texto-secundario);
 }
 
-.linha-idioma{
+.linha-idioma {
     border-bottom: 1px solid #ffffff99;
     margin: .5rem 0 .75rem;
+}
+
+.pessoas-viram {
+    width: 20rem;
+    height: 35.25rem;
+    background-color: var(--fundo-card);
+    border-radius: 16px;
+    float: right;
+    margin: 0 15rem 0 0;
+}
+
+.pessoas-viram h1 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 16px 0 0 16px;
+}
+
+.pessoas {
+    padding: 16px 20px 0 16px;
+    display: flex;
+}
+
+.info-pessoa h2 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.info-pessoa p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--texto-secundario);
+}
+
+.info-pessoa {
+    padding-left: 6px;
+}
+
+.btn-send-msg {
+    text-align: center;
+    border: solid 1px var(--texto-principal);
+    width: 9.625rem;
+    border-radius: 16px;
+    padding: 3px;
+    margin: 10px 0 0 69px;
+}
+
+.talvez-conheca {
+    width: 20rem;
+    height: 35.25rem;
+    background-color: var(--fundo-card);
+    border-radius: 16px;
+    float: right;
+    margin: 0 15rem 0 0;
+    position: absolute;
+    left: 60rem;
+    right: 9.625rem;
+    top: 40.5rem;
+}
+
+.talvez-conheca h1 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 16px 0 0 16px;
 }
 
 @media(max-width: 1024px) {
