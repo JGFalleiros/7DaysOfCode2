@@ -430,8 +430,8 @@ a {
     height: 35.25rem;
     background-color: var(--fundo-card);
     border-radius: 16px;
-    float: right;
-    margin: 0 15rem 0 0;
+    position: absolute;
+    left: 60rem;
 }
 
 .pessoas-viram h1 {
