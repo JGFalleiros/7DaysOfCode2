@@ -8,3 +8,5 @@ Desafio de HTML e CSS da Alura - Reproduzir Linkedin
 <p>5º Dia - Desenvolvido a seção de experiências</p>
 <p>6º Dia - Desenvolvido as seções de formação acadêmica e idiomas</p>
 <p>7º Dia - Desenvolvido a seção de as pessoas também viram e pessoas que talvez você conheça </p>
+
+Veja como ficou aqui -> https://jgfalleiros.github.io/7DaysOfCode2/
